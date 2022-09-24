@@ -9,8 +9,11 @@ package com.practice.ctci.arraysnstrings;
  */
 public class ArrayRotationDriver {
     public static void main(String[] args) {
-
         
+        int[][] matrix = {{}};
+
+        ArrayRotator arrayRotator = new ArrayRotator();
+        arrayRotator.rotate(matrix);
     }
 }
 
@@ -18,6 +21,8 @@ class ArrayRotator {
     public void rotate(int[][] matrix) {
         //Find Transpose matrix
         //Swap columns
+        transpose(matrix);
+        swapColumns(matrix);
     }
 
     public void transpose(int[][] matrix){
