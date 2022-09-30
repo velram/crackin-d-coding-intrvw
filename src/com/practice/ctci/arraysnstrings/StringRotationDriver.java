@@ -10,6 +10,16 @@ package com.practice.ctci.arraysnstrings;
 public class StringRotationDriver {
     public static void main(String[] args) {
 
+        //Test case #
+        String s = "";
+        String goal = "";
+
+        //Test case #
+//        String s = "";
+//        String goal = "";
+
+        StringRotationTools stringRotationTools = new StringRotationTools();
+        stringRotationTools.rotateString(s, goal);
     }
 }
 
