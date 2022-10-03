@@ -11,8 +11,8 @@ public class StringRotationDriver {
     public static void main(String[] args) {
 
         //Test case #
-        String s = "";
-        String goal = "";
+        String s = "abcde";
+        String goal = "cdeab";
 
         //Test case #
 //        String s = "";
