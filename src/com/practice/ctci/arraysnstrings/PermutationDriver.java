@@ -10,6 +10,13 @@ package com.practice.ctci.arraysnstrings;
 public class PermutationDriver {
     public static void main(String[] args) {
 
+        String firstString = "anagram";
+        String secondString = "nagaram";
+//        String firstString = "abcd";
+//        String secondString = "nagaram";
+
+        PermutationChecker permutationChecker = new PermutationChecker();
+        System.out.println("Is Anagram : " + permutationChecker.isAnagram(firstString, secondString));
     }
 }
 
