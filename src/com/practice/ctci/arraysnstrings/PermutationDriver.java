@@ -12,7 +12,7 @@ public class PermutationDriver {
 
         String firstString = "anagram";
         String secondString = "nagaram";
-//        String firstString = "abcd";
+//        String firstString = "abcd"; //Test case #2 - Not anagram - PASS
 //        String secondString = "nagaram";
 
         PermutationChecker permutationChecker = new PermutationChecker();
