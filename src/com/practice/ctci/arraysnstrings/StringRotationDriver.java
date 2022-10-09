@@ -14,6 +14,10 @@ public class StringRotationDriver {
         String s = "abcde";
         String goal = "cdeab";
 
+        //Test case #2 - not rotated
+//        String s = "hello";
+//        String goal = "abcde";
+
         //Test case #
 //        String s = "";
 //        String goal = "";
