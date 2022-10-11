@@ -14,6 +14,9 @@ import java.util.Set;
 public class ZeroMatrixDriver {
     public static void main(String[] args) {
 
+        int[][] matrix = {{}};
+        ZeroMatrixTools zeroMatrixTools = new ZeroMatrixTools();
+        zeroMatrixTools.setZeroes(matrix);
     }
 }
 
