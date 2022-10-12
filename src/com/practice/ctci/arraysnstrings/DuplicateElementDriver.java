@@ -13,6 +13,9 @@ import java.util.Set;
 public class DuplicateElementDriver {
     public static void main(String[] args) {
 
+        int[] nums = {1,2,3,4,5,1};
+        DuplicateFinder duplicateFinder = new DuplicateFinder();
+        System.out.println("Input array contains duplicate : " + duplicateFinder.containsDuplicate(nums));
     }
 }
 
