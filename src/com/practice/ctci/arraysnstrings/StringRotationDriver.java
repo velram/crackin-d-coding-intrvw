@@ -18,9 +18,9 @@ public class StringRotationDriver {
 //        String s = "hello";
 //        String goal = "abcde";
 
-        //Test case #
-//        String s = "";
-//        String goal = "";
+        //Test case #3 Length not same
+//        String s = "hello";
+//        String goal = "welc";
 
         StringRotationTools stringRotationTools = new StringRotationTools();
         stringRotationTools.rotateString(s, goal);
