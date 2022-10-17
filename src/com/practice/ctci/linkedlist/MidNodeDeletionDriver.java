@@ -23,6 +23,9 @@ package com.practice.ctci.linkedlist;
 public class MidNodeDeletionDriver {
     public static void main(String[] args) {
 
+        MidNodeDeletionTools midNodeDeletionTools = new MidNodeDeletionTools();
+        ListNode listNode = new ListNode(3);
+        midNodeDeletionTools.deleteNode(listNode);
     }
 }
 
