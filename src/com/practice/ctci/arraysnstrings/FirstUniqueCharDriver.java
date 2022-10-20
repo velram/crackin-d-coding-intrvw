@@ -10,6 +10,17 @@ package com.practice.ctci.arraysnstrings;
 public class FirstUniqueCharDriver {
     public static void main(String[] args) {
 
+        String input = "leetcode";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+//        String input = "";//Test case #
+
+        FirstUniqueCharFinder firstUniqueCharFinder = new FirstUniqueCharFinder();
+        System.out.println("First unique char index : " + firstUniqueCharFinder.findFirstUniqeChar(input));
     }
 }
 
