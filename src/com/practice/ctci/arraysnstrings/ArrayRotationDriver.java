@@ -10,7 +10,11 @@ package com.practice.ctci.arraysnstrings;
 public class ArrayRotationDriver {
     public static void main(String[] args) {
         
-        int[][] matrix = {{}};
+        int[][] matrix = {{1,2,3},{4,5,6},{7,8,9}};//Test case #1
+//        int[][] matrix = {{}};//Test case #
+//        int[][] matrix = {{}};//Test case #
+//        int[][] matrix = {{}};//Test case #
+//        int[][] matrix = {{}};//Test case #
 
         ArrayRotator arrayRotator = new ArrayRotator();
         arrayRotator.rotate(matrix);
