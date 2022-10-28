@@ -2,4 +2,13 @@
 
 Cracking The Coding Interview (CTCI) - coding problems from this book has been solved and present in this repository.
 
-Practice repo
+Practice repo. 
+
+Contains : 
+1. Solutions to the problems in the CTCI book. 
+
+------
+Chapters : 
+
+1. Arrays & Strings. 
+2. LinkedList.
