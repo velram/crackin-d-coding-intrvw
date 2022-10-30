@@ -10,5 +10,6 @@ Contains :
 ------
 Chapters : 
 
-1. Arrays & Strings. 
-2. LinkedList.
+1. Arrays and Strings
+2. LinkedList
+3. Stacks and Queues
