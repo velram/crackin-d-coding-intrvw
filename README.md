@@ -13,3 +13,4 @@ Chapters :
 1. Arrays and Strings
 2. LinkedList
 3. Stacks and Queues
+4. Trees
