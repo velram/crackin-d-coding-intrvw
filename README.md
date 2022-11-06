@@ -15,3 +15,4 @@ Chapters :
 3. Stacks and Queues
 4. Trees
 5. Graphs
+6. Dynamic programming
