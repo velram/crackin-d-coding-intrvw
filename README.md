@@ -7,7 +7,6 @@ Practice repo.
 Contains : 
 1. Solutions to the problems in the CTCI book. 
 
------------------------------------------
 Chapters : 
 
 Chapter 1: Arrays and Strings
