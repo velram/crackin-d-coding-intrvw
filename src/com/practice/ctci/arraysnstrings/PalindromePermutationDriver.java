@@ -23,12 +23,12 @@ class PalindromePermutationFinder {
     public boolean canFormPalindrome(String input){
 
         //Calculate frequency table
-        int[] frequencyTable = calculateFrequencyTable(input);
+        int[] frequencyTable = computeFrequencyMap(input);
         //Find isValidPalindrome
-        return isValidPalindrome(frequencyTable);
+        return canFormPalindrome(frequencyTable);
     }
 
-    private boolean isValidPalindrome(int[] frequencyTable) {
+    private boolean canFormPalindrome(int[] frequencyTable) {
 
         int oneCounter = 0;
 
@@ -45,7 +45,7 @@ class PalindromePermutationFinder {
         return oneCounter <= 1;
     }
 
-    public int[] calculateFrequencyTable(String input) {
+    public int[] computeFrequencyMap(String input) {
 
         int[] frequencyTable = new int[26];
 
