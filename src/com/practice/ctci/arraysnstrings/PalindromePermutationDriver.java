@@ -22,27 +22,27 @@ public class PalindromePermutationDriver {
 class PalindromePermutationFinder {
     public boolean canFormPalindrome(String input){
 
-        //Calculate frequency table
-        int[] frequencyTable = calculateFrequencyTable(input);
-        //Find isValidPalindrome
-        return isValidPalindrome(frequencyTable);
-    }
-
-    private boolean isValidPalindrome(int[] frequencyTable) {
-
-        int oneCounter = 0;
-
-        for(int currentElement : frequencyTable){
-            if(currentElement > 1){
-                return false;
-            }
-
-            if(currentElement == 1){
-                oneCounter++;
-            }
+        if(input.length() == 1){
+            return true;
         }
 
-        return oneCounter <= 1;
+        return canFormPalindrome(calculateFrequencyTable(input));
+    }
+
+    private boolean canFormPalindrome(int[] frequencyTable) {
+
+        int oddCount = 0;
+
+        for(int currentElement : frequencyTable){
+          if(currentElement % 2 != 0){
+              oddCount++;
+              if(oddCount > 1){
+                  return false;
+              }
+          }
+        }
+
+        return oddCount <= 1;
     }
 
     public int[] calculateFrequencyTable(String input) {
@@ -50,12 +50,7 @@ class PalindromePermutationFinder {
         int[] frequencyTable = new int[26];
 
         for(char currentElement : input.toCharArray()){
-            if(frequencyTable[currentElement - 'a'] == 0){
-                frequencyTable[currentElement - 'a']++;
-            }
-            else {
-                frequencyTable[currentElement - 'a']--;
-            }
+            frequencyTable[currentElement - 'a']++;
         }
 
         return frequencyTable;
