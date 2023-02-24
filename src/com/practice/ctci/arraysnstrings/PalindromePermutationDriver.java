@@ -26,7 +26,7 @@ class PalindromePermutationFinder {
             return true;
         }
 
-        return canFormPalindrome(calculateFrequencyTable(input));
+        return canFormPalindrome(computeFrequency(input));
     }
 
     private boolean canFormPalindrome(int[] frequencyTable) {
@@ -45,7 +45,7 @@ class PalindromePermutationFinder {
         return oddCount <= 1;
     }
 
-    public int[] calculateFrequencyTable(String input) {
+    public int[] computeFrequency(String input) {
 
         int[] frequencyTable = new int[26];
 
